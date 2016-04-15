@@ -10,16 +10,26 @@
       <script type="text/javascript" src="https://dl.dropboxusercontent.com/u/78965321/site/javascript/libs/fullPage/jquery.fullPage.min.js"></script>
       <script>
 	$(document).ready(function() {
-	$('#fullpage').fullpage({scrollOverflow: false, sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke']});
+	$('#fullpage').fullpage({scrollOverflow: false,
+	sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+	css3: true});
 	});
       </script>
     </head>
 
+
     <body>
+    <!-- <div id="header" style="background-color:#e7e7e7;color:#ffffff">Header</div> -->
       <div id="fullpage">
-	<div class="section">Section 1</div>
 	<div class="section">
-          <div class="slide">Section 2 Slide 1</div>
+	  <div style="position:relative;height:90%;top:5%;background-color:ff5555">
+	      <img style="position:relative;height:90%;top:5%;left:10%;width:auto;" src="http://dl.dropboxusercontent.com/u/78965321/site/images/pictures/webrainbow21460598645.25.png"></img>
+	  </div>  
+	</div>
+	<div class="section">
+          <div class="slide">
+	    	  <img style="max-height:90%;top:25%" src="http://dl.dropboxusercontent.com/u/78965321/site/images/pictures/webrainbow21460538572.85.png"></img>
+	  </div>
           <div class="slide">Section 2 Slide 2</div>
           <div class="slide">Section 2 Slide 3</div>
 	</div>
